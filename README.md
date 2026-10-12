@@ -2,6 +2,8 @@
 
 A public research report with interactive charts, the supplied source data, an independent offline reproduction, and an Agents API workflow.
 
+Inspired by [this post by @gurgavin on X](https://x.com/gurgavin/status/2109399629431488571).
+
 **Verdict: the arithmetic reproduces, but the actual full-universe strategy remains unverified.** Missing candidate prices affect 235 of 346 monthly rankings. This is an approximation that buys the best observable stock, not necessarily the true winner.
 
 ## Results and audit
