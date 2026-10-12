@@ -9,3 +9,4 @@ agent_downloads/
 reproduced/
 .DS_Store
 /media/
+/scripts/make_video.py

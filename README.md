@@ -1,6 +1,6 @@
 # Last month’s winner — a backtest, checked
 
-A public research report with interactive charts, the supplied source data, an independent offline reproduction, an Agents API workflow, and a script for rendering a local animated explainer.
+A public research report with interactive charts, the supplied source data, an independent offline reproduction, and an Agents API workflow.
 
 **Verdict: the arithmetic reproduces, but the actual full-universe strategy remains unverified.** Missing candidate prices affect 235 of 346 monthly rankings. This is an approximation that buys the best observable stock, not necessarily the true winner.
 
@@ -86,12 +86,6 @@ python run_agents.py --download-only
 The script retains `.agent-state.json` and refuses to start a duplicate session automatically. If the session itself is interrupted, inspect that session’s saved events/items using the official recovery documentation before rerunning. A completed API turn does not establish valid financial conclusions; review the resulting audit.
 
 **Execution provenance:** the delivered audit was computed locally. The hosted runner was checked against OpenAI Python SDK 3.29.0 and tested with simulated file transfers. At the user’s choice, no live paid Agents API run was made. Future hosted runs may produce different analysis; preserve their returned files separately.
-
-## Local video rendering
-
-Generated media stays local: `/media/` is ignored by Git and excluded from the public download bundle. The hosted report does not include the video.
-
-To render the 30-second animation locally, install Pillow and ffmpeg, then run `python scripts/make_video.py`. This creates `media/strategy-30s.mp4` and `media/poster.jpg`. macOS system Arial and Georgia are used by default; the renderer also supports Linux DejaVu fonts or `--font-dir`.
 
 ## Files and sources
 

@@ -1,8 +1,8 @@
 {
   ".env.example": "978ea44e6dabee6eafec114f2000b87d886c50a93d89e31824b81b4e03e889e9",
-  ".gitignore": "acfcfb1560bd679fcf9e162d3d8d368583f070d9d96920f42cdbda723d737172",
+  ".gitignore": "6a0ee7a4f2af5e067c81224b7b9306d26f769709fde7d659e039310566a17788",
   ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "README.md": "d0154a699f95a278df92cf695a24da39b54e8efbc382dcec4c3c90d89d9ee692",
+  "README.md": "f23c9e673b96f62fb7ab87613ba8697c59203af524af8c4b77c4e4765e043ee3",
   "RESEARCH_PROMPT.txt": "83f865eaa7ca6954af7a2efef350f1db3edaa76488e44ac16685e116fea98a68",
   "data/Backtest_Data_and_Code.zip": "250684cc40ca04fa21b43e5728d369fad16685fdbb6afd8c3f7c5d29637bb2d3",
   "data/DATA_DICTIONARY.md": "bab04ff933fa4ccf7cda743d5ecb7c712e8bd82d8c7ad75a2b307c72825991eb",
@@ -24,8 +24,7 @@
   "requirements.txt": "47e1a728c9ce40661e1a5749a3c58a020e138ac231754edc8ca2b6d1ced18ace",
   "run_agents.py": "994f6acbea28a83c4a6378aafef0e83c46e8deae3b96788a1cfff173c96d1a0d",
   "scripts/audit.py": "880ea4077504ddc169a315b3ae9d4b9766dadb761700e9f9ce8c2d5904c693b2",
-  "scripts/make_video.py": "25db02180e291a3b840afba1831a5e2bd56340f5898e780efcb87d0f94e18fd5",
-  "scripts/package.py": "2faf19cb9dacaf23d2a5a03f0cbbb16c01725052b6cbaa6c5ee59183c4f1d45b",
+  "scripts/package.py": "3c53b1792ebbe5fff1df80f0aff451ab34a6e8236772764031d5098b446195e8",
   "scripts/reproduce.py": "d0b6ccf5320f2f0d955c8276d2f467e380d9e3e5dc2bb60a47c5b799b19776ac",
   "tests/test_workflow.py": "16623b6b049cbb234551816f47d361e2673a80dcf1efc594d64604ed122a9581"
 }
