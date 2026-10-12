@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib,json,zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-SKIP={'.git','.venv','__pycache__','agent_downloads','reproduced'}
+SKIP={'.git','.venv','__pycache__','agent_downloads','reproduced','media'}
 def include(p):
     rel=p.relative_to(ROOT)
     return p.is_file() and not any(x in SKIP for x in rel.parts) and p.name not in {

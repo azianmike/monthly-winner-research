@@ -8,3 +8,4 @@ agent_downloads/
 .agent-state.json
 reproduced/
 .DS_Store
+/media/

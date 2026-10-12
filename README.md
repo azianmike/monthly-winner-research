@@ -1,6 +1,6 @@
 # Last month’s winner — a backtest, checked
 
-A public research report with interactive charts, the supplied source data, an independent offline reproduction, an Agents API workflow, and a 30-second animated explainer.
+A public research report with interactive charts, the supplied source data, an independent offline reproduction, an Agents API workflow, and a script for rendering a local animated explainer.
 
 **Verdict: the arithmetic reproduces, but the actual full-universe strategy remains unverified.** Missing candidate prices affect 235 of 346 monthly rankings. This is an approximation that buys the best observable stock, not necessarily the true winner.
 
@@ -35,7 +35,7 @@ Further findings:
 
 ## Open the report
 
-Open `index.html` directly in a browser; the chart and purchase-table data are embedded. Keep the folder together for download links and the video. Or serve it locally:
+Open `index.html` directly in a browser; the chart and purchase-table data are embedded. Keep the folder together for download links. Or serve it locally:
 
 ```sh
 python -m http.server 8000
@@ -87,11 +87,11 @@ The script retains `.agent-state.json` and refuses to start a duplicate session 
 
 **Execution provenance:** the delivered audit was computed locally. The hosted runner was checked against OpenAI Python SDK 3.29.0 and tested with simulated file transfers. At the user’s choice, no live paid Agents API run was made. Future hosted runs may produce different analysis; preserve their returned files separately.
 
-## Video
+## Local video rendering
 
-`media/strategy-30s.mp4` is a 30-second, 1280×720, 30 fps H.264 animation with burned-in text, no audio, and English caption/transcript data. It includes the requested “Built with OpenAI's Agents API” closing callout and explicitly states that the hosted workflow is included while this audit was reproduced locally.
+Generated media stays local: `/media/` is ignored by Git and excluded from the public download bundle. The hosted report does not include the video.
 
-To render again, install Pillow and ffmpeg, then run `python scripts/make_video.py`. macOS system Arial and Georgia are used by default; the renderer also supports Linux DejaVu fonts or `--font-dir`.
+To render the 30-second animation locally, install Pillow and ffmpeg, then run `python scripts/make_video.py`. This creates `media/strategy-30s.mp4` and `media/poster.jpg`. macOS system Arial and Georgia are used by default; the renderer also supports Linux DejaVu fonts or `--font-dir`.
 
 ## Files and sources
 
@@ -102,7 +102,7 @@ To render again, install Pillow and ffmpeg, then run `python scripts/make_video.
 - `data/independent_price_checks.json`: fresh price-check diagnostics.
 - `data/report_data.json`: the same data embedded in the HTML.
 - `RESEARCH_PROMPT.txt`: full goal, assumptions, uncertainty rules, and required downloadable outputs.
-- `research_bundle.zip`: report, data, code, video, and documentation (excludes itself, secrets, and run state).
+- `research_bundle.zip`: report, data, code, and documentation (excludes itself, generated media, secrets, and run state).
 
 Public source reconstruction: [price data](https://github.com/Johnbrick123/sp500-data) and [historical members](https://github.com/fja05680/sp500). The original frozen source metadata identifies release 392203743 and a download date of October 12, 2026. The full original parquet files are not in the attachment; the frozen CSV subsets are sufficient to reproduce its reported approximation. Third-party data retains its providers’ terms; this project grants no new rights over those inputs.
 
