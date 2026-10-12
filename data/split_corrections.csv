@@ -1,0 +1,5 @@
+date,ticker,stock_splits,close,adj_close,source,raw_price_ratio,recorded_total_return,correction_factor,reason
+2007-12-11,AMCC-201701,0.25,10.18,10.18,tiingo,1.04303278689,-0.739241803279,0.25,Assume split factor applied although raw price did not show the mechanical split change.
+2001-12-04,PBG-201002,2,45.12,20.577047902,tiingo,1.00984780662,1.01969561325,2,Assume split factor applied although raw price did not show the mechanical split change.
+1997-01-16,USB-200102,3,71.37,5.29787058818,tiingo,0.993042994295,1.97912898289,3,Assume split factor applied although raw price did not show the mechanical split change.
+1999-04-16,USB-200102,3,35.44,25.213215278,tiingo,0.991328671329,1.97398601399,3,Assume split factor applied although raw price did not show the mechanical split change.

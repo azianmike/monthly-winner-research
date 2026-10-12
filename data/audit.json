@@ -1,0 +1,143 @@
+{
+  "verdict": "Arithmetic reproduced; full-universe strategy unverified",
+  "checks": {
+    "purchases": 346,
+    "contributions": 346000.0,
+    "selection_or_date_or_coverage_failures": [],
+    "max_monthly_value_difference_dollars": 4.994682967662811e-06,
+    "max_lot_difference_dollars": 1.3830140233039856e-06,
+    "input_hashes_match": {
+      "price_endpoints.csv": true,
+      "price_marks.csv": true,
+      "terminal_quotes.csv": true,
+      "membership_intervals.csv": true
+    },
+    "workbook_max_lot_difference": {
+      "Purchases!I": 0.0004824618808925152,
+      "Purchases!L": 5.59939508093521e-08
+    },
+    "workbook_cached_errors": [],
+    "duplicates": 0,
+    "nonpositive_prices": 0
+  },
+  "strategy_value": 8204466.908644661,
+  "spy_value": 2258566.7296655197,
+  "annualized_365_25": {
+    "strategy": 0.17838820522813081,
+    "spy": 0.11114936455070457
+  },
+  "excel_xirr_365": {
+    "strategy": 0.1782558173411729,
+    "spy": 0.11106921034115957
+  },
+  "incomplete_months": 235,
+  "first_month_coverage": {
+    "buy_date": "1998-01-02",
+    "eligible": 499,
+    "ranked": 264
+  },
+  "minimum_coverage": 0.529058116232,
+  "not_members_at_buy": [
+    {
+      "buy_date": "2013-12-02",
+      "ticker": "JCP"
+    }
+  ],
+  "missing_entry_count": 0,
+  "workbook_static_return_formulas": {
+    "Summary!C12": "=0.17838820522812915",
+    "Summary!D12": "=0.11114936455069935"
+  },
+  "top_holdings": [
+    {
+      "ticker": "NVDA",
+      "purchases": 6,
+      "invested": 6000,
+      "marked_value": 3131931.54211,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.381734922815
+    },
+    {
+      "ticker": "AAPL",
+      "purchases": 2,
+      "invested": 2000,
+      "marked_value": 2725712.85941,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.332223030425
+    },
+    {
+      "ticker": "MU",
+      "purchases": 6,
+      "invested": 6000,
+      "marked_value": 450257.498086,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0548795556249
+    },
+    {
+      "ticker": "AMD",
+      "purchases": 8,
+      "invested": 8000,
+      "marked_value": 372415.565515,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0453918054229
+    },
+    {
+      "ticker": "DDS",
+      "purchases": 5,
+      "invested": 5000,
+      "marked_value": 210371.016844,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0256410342301
+    },
+    {
+      "ticker": "NFLX",
+      "purchases": 6,
+      "invested": 6000,
+      "marked_value": 155863.795534,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0189974311883
+    },
+    {
+      "ticker": "AMZN",
+      "purchases": 2,
+      "invested": 2000,
+      "marked_value": 130105.947214,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0158579403955
+    },
+    {
+      "ticker": "HUM",
+      "purchases": 2,
+      "invested": 2000,
+      "marked_value": 70026.0835522,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.00853511682501
+    },
+    {
+      "ticker": "PGR",
+      "purchases": 1,
+      "invested": 1000,
+      "marked_value": 54674.6005721,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.00666400403352
+    },
+    {
+      "ticker": "ATI",
+      "purchases": 4,
+      "invested": 4000,
+      "marked_value": 52712.7439413,
+      "last_price_date": "2026-10-09",
+      "status": "current price",
+      "portfolio_weight": 0.0064248834846
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "SPY",
+    "queried_dates": 347,
+    "matched_dates": 347,
+    "maximum_open_close_relative_difference": 4.3578474162586645e-12,
+    "maximum_terminal_growth_factor_relative_difference": 8.14074022859046e-07,
+    "source": "Yahoo chart API daily",
+    "retrieved": "2026-10-12",
+    "all_346_first_trading_days_match": true
+  },
+  {
+    "ticker": "NVDA",
+    "queried_dates": 7,
+    "matched_dates": 7,
+    "maximum_open_close_relative_difference": 3.532063530542473e-12,
+    "maximum_terminal_growth_factor_relative_difference": 2.6650407392025954e-07,
+    "source": "Yahoo chart API daily",
+    "retrieved": "2026-10-12"
+  },
+  {
+    "ticker": "AAPL",
+    "queried_dates": 3,
+    "matched_dates": 3,
+    "maximum_open_close_relative_difference": 3.0593305666570814e-12,
+    "maximum_terminal_growth_factor_relative_difference": 2.2671378840932732e-07,
+    "source": "Yahoo chart API daily",
+    "retrieved": "2026-10-12"
+  }
+]
